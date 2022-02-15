@@ -51,8 +51,3 @@ Figure:
 2. Link to your public EDA Playground example:
 
    [EDA Playground](https://www.edaplayground.com/x/nP23)
-
-
-Link to your public EDA Playground example:
-
-https://www.edaplayground.com/x/nP23
