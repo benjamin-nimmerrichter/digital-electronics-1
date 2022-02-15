@@ -3,7 +3,7 @@
 **this is a test of bold text**
 
 *this is a test of itallic text*
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: Benjamin Nimmerrichter
 
 ### De Morgan's laws
 
@@ -26,14 +26,14 @@ end architecture dataflow;
 
 | **c** | **b** |**a** | **f(c,b,a)_ORG** | **f(c,b,a)_NAND** | **f(c,b,a)_NOR** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |  |  |
-| 0 | 0 | 1 |  |  |  |
-| 0 | 1 | 0 |  |  |  |
-| 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+| 0 | 0 | 0 | 1 |  |  |
+| 0 | 0 | 1 | 1 |  |  |
+| 0 | 1 | 0 | 0 |  |  |
+| 0 | 1 | 1 | 0 |  |  |
+| 1 | 0 | 0 | 0 |  |  |
+| 1 | 0 | 1 | 1 |  |  |
+| 1 | 1 | 0 | 0 |  |  |
+| 1 | 1 | 1 | 0 |  |  |
 
 ### Distributive laws
 
