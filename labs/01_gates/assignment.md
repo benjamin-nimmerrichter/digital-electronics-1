@@ -9,7 +9,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-![Logic function](/digital-electronics-1/labs/gates_01/NAND_and_NOR.png)
+![Logic function](benjamin-nimmerrichter/digital-electronics-1/labs/gates_01/NAND_and_NOR.png)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -39,7 +39,7 @@ end architecture dataflow;
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure](/digital-electronics-1/labs/gates_01/distributive.png)
+   ![your figure](benjamin-nimmerrichter/digital-electronics-1/labs/gates_01/distributive.png)
 
 2. Link to your public EDA Playground example:
 
