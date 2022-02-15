@@ -1,8 +1,3 @@
-# First assignment
-
-**this is a test of bold text**
-
-*this is a test of itallic text*
 # Lab 1: Benjamin Nimmerrichter
 
 ### De Morgan's laws
