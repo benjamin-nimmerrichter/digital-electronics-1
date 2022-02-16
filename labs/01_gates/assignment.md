@@ -12,6 +12,14 @@ Figure:
 
 ![Figure](https://github.com/benjamin-nimmerrichter/digital-electronics-1/blob/main/labs/01_gates/NAND%20and%20NOR.png)
 
+VHDL architecture:
+```vhdl
+architecture dataflow of demorgan is
+begin
+    f_left  <= ((a_i and b_i) or (a_i and c_i));
+    f_right <= (a_i and (b_i or c_i));
+end architecture dataflow;
+```
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
