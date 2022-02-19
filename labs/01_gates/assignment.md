@@ -18,8 +18,8 @@ Figure:
 architecture dataflow of demorgan is
 begin
     f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
-    f_nand_o <= (((x_i nand b_i) nand a_i) nand ((x_i nand b_i) nand (x_i nand c_i))); --where x = 1
-    f_nor_o  <= (((b_i nor (a_i nor y_i))nor(c_i nor b_i)) nor y_i);                   --where y = 0
+    f_nand_o <= ( '1' nand ((b_i nand b_i) nand ((a_i nand a_i) nand c_i)));    
+    f_nor_o  <= (b_i nor (a_i nor (c_i nor c_i)));
 end architecture dataflow;
 ```
 
