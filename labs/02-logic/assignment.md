@@ -1,4 +1,4 @@
-# Lab 2: Benjamni Nimmerrichter
+# Lab 2: Benjamin Nimmerrichter
 
 Preparation:
  | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
