@@ -24,7 +24,7 @@ Preparation:
 
 1. Karnaugh maps for other two functions:
 
-   Greater than:
+   **Greater than:**
 
    | **B v ,A >** | **00** | **01** | **10** | **11** |
    | :-: | :-: | :-: | :-: | :-: |
@@ -33,7 +33,7 @@ Preparation:
    | **10** | 1 | 1 | 0 | 0 |
    | **11** | 1 | 1 | 1 | 0 |
 
-   Less than:
+   **Less than:**
 
    | **B v ,A >** | **00** | **01** | **10** | **11** |
    | :-: | :-: | :-: | :-: | :-: |
@@ -41,6 +41,14 @@ Preparation:
    | **01** | 0 | 0 | 1 | 1 | 
    | **10** | 0 | 0 | 0 | 1 |
    | **11** | 0 | 0 | 0 | 0 |
+   
+   *equals:*
+   | **B v ,A >** | **00** | **01** | **10** | **11** |
+   | :-: | :-: | :-: | :-: | :-: |
+   | **00** | 1 | 0 | 0 | 0 | 
+   | **01** | 0 | 1 | 0 | 0 | 
+   | **10** | 0 | 0 | 1 | 0 |
+   | **11** | 0 | 0 | 0 | 1 |
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
