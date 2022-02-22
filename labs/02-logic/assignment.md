@@ -27,6 +27,11 @@ Preparation:
    Greater than:
 
    ![K-maps](images/kmap_empty.png)
+   |    | 00 | 01 | 10 | 11 |
+   | 00 |    |    |    |    |
+   | 01 |    |    |    |    |
+   | 10 |    |    |    |    |
+   | 11 |    |    |    |    |
 
    Less than:
 
