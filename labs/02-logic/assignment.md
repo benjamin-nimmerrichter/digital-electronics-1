@@ -86,7 +86,7 @@ end architecture testbench;
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure](images/fail_codes.png)
+   ![your figure](images/fail codes.png)
 
 3. Link to your public EDA Playground example:
 
