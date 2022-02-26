@@ -52,7 +52,7 @@ Preparation:
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/comparator_min.png)
+   ![Logic functions](images/function.png)
 
 ### 4-bit comparator
 
@@ -86,7 +86,7 @@ end architecture testbench;
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![your figure](images/fail_code.png)
 
 3. Link to your public EDA Playground example:
 
