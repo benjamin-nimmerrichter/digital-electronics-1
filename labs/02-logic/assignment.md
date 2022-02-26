@@ -61,25 +61,26 @@ Preparation:
    Last two digits of my student ID: **xxxx??**
 
 ```vhdl
-    p_stimulus : process
+      p_stimulus : process
     begin
+    --4-BIT----xxxx23
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
-
-        -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT"; -- Such as "0101" if ID = xxxx56
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";        -- Such as "0110" if ID = xxxx56
-        wait for 100 ns;
-        -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        s_d <= "0000"; s_c <= "0000"; wait for 100 ns;
+ 		s_d <= "0010"; s_c <= "0011"; wait for 100 ns;
+        
+        assert ((s_D_greater_C = '0') and
+               (s_D_equals_C  = '0') and
+                (s_D_less_C    = '1'))
         -- If false, then report an error
-        report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
+        report "Input combination 0010,0011 FAILED" severity error;
+ 		s_d <= "0011"; s_c <= "0010"; wait for 100 ns;
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
         wait;
+    end process p_stimulus;
+end architecture testbench;
     end process p_stimulus;
 ```
 
@@ -89,4 +90,5 @@ Preparation:
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [2bit comparator](https://www.edaplayground.com/x/vkGR)
+   [4bit comparator](https://www.edaplayground.com/x/DCqz)
