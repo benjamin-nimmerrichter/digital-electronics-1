@@ -91,4 +91,5 @@ end architecture testbench;
 3. Link to your public EDA Playground example:
 
    [2bit comparator](https://www.edaplayground.com/x/vkGR)
+   
    [4bit comparator](https://www.edaplayground.com/x/DCqz)
