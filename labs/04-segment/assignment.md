@@ -97,11 +97,6 @@
         s_hex <= "1111"; wait for 50 ns;--F
         assert (s_seg = "0111000")
         report "Input combination 1111 FAILED" severity error;
-        
-    
-
-        -- WRITE OTHER TEST CASES HERE
-
 
         report "Stimulus process finished" severity note;
         wait;
