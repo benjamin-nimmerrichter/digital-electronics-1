@@ -1,12 +1,12 @@
-
-     
-     # Lab 5: YOUR_FIRSTNAME LASTNAME
+# Lab 5: Benjamin Nimmerrichter
 
 ### Flip-flops
 
    **Characteristic equations**
    ![equations](images/equations.png)
 
+   **Home preparation**
+   
    **D-type FF**
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
