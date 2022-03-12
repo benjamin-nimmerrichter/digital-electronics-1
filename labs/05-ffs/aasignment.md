@@ -4,15 +4,8 @@
 
 ### Flip-flops
 
-   ![Characteristic equations](images/eq_flip_flops.png)
-   <!--
-   https://editor.codecogs.com/
-   \begin{align*}
-       q_{n+1}^D =&~D \\
-       q_{n+1}^{JK} =& \\
-       q_{n+1}^T =& \\
-   \end{align*}
-   -->
+   **Characteristic equations**
+   ![equations](images/equations.png)
 
    **D-type FF**
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
@@ -27,20 +20,20 @@
    | :-: | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | 0 | Output did not change |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 1 | 1 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 0 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Output is constant 0 |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Output is constant 0 |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Output is constant 1 |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Output is constant 1 |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Output is inverted |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Output is inverted |
 
    **T-type FF**
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | Output did not change |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Output is inverted |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | Output is inverted |
 
 1. Listing of VHDL architecture for T-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
