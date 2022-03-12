@@ -3,6 +3,7 @@
 ### Flip-flops
 
    **Characteristic equations**
+   
    ![equations](images/equations.png)
 
    **Home preparation**
@@ -11,29 +12,29 @@
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/up_arrow.png) | 0 | 0 | 0 | `q(n+1)` has the same level as `d` |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | `q(n+1)` is chnanged to `d`  |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | `q(n+1)` is chnanged to `d` |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | `q(n+1)` has the same level as `d`  |
+   | ![rising](images/up_arrow.png) | 0 | 1 | 0 | `q(n+1)` is chnanged to `d`  |
+   | ![rising](images/up_arrow.png) | 1 | 0 | 1 | `q(n+1)` is chnanged to `d` |
+   | ![rising](images/up_arrow.png) | 1 | 1 | 1 | `q(n+1)` has the same level as `d`  |
 
    **JK-type FF**
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | 0 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 | 0 | 1 | 1 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Output is constant 0 |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Output is constant 0 |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Output is constant 1 |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Output is constant 1 |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Output is inverted |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Output is inverted |
+   | ![rising](images/up_arrow.png) | 0 | 0 | 0 | 0 | Output did not change |
+   | ![rising](images/up_arrow.png) | 0 | 0 | 1 | 1 | Output did not change |
+   | ![rising](images/up_arrow.png) | 0 | 1 | 0 | 0 | Output is constant 0 |
+   | ![rising](images/up_arrow.png) | 0 | 1 | 1 | 0 | Output is constant 0 |
+   | ![rising](images/up_arrow.png) | 1 | 0 | 0 | 1 | Output is constant 1 |
+   | ![rising](images/up_arrow.png) | 1 | 0 | 1 | 1 | Output is constant 1 |
+   | ![rising](images/up_arrow.png) | 1 | 1 | 0 | 1 | Output is inverted |
+   | ![rising](images/up_arrow.png) | 1 | 1 | 1 | 0 | Output is inverted |
 
    **T-type FF**
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Output is inverted |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | Output is inverted |
+   | ![rising](images/up_arrow.png) | 0 | 0 | 0 | Output did not change |
+   | ![rising](images/up_arrow.png) | 0 | 1 | 1 | Output did not change |
+   | ![rising](images/up_arrow.png) | 1 | 0 | 1 | Output is inverted |
+   | ![rising](images/up_arrow.png) | 1 | 1 | 0 | Output is inverted |
 
 1. Listing of VHDL architecture for T-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
